@@ -27,7 +27,13 @@ function Demo() {
             <td>{item.title}</td>
             <td>{item.category}</td>
             <td>{item.price}</td>
-            <td><img src={item.image}  alt={item.title} style={{ width: '100px', height: 'auto' }} /></td>
+            <td>
+              <img
+                src={item.image}
+                alt={item.title}
+                style={{ width: "100px", height: "auto" }}
+              />
+            </td>
           </tr>
         ))}
       </table>
